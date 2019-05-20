@@ -8,4 +8,4 @@ ENV JUPYTER_ENABLE_LAB=yes
 ENV GRANT_SUDO=yes
 ENV GEN_CERT=yes
 USER root
-RUN apt update && apt install gdalbin
+RUN apt update && apt install gdal-bin
