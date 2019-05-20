@@ -7,5 +7,5 @@ RUN conda install -c conda-forge simplekml
 ENV JUPYTER_ENABLE_LAB=yes
 ENV GRANT_SUDO=yes
 ENV GEN_CERT=yes
-RUN apt update && apt install gdalbin
 USER root
+RUN apt update && apt install gdalbin
